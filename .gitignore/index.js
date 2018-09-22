@@ -32,11 +32,11 @@ bot.on('guildMemberAdd', member => {
   console.log('User ' + member.user.username + ' has joined the server!')
   console.log(member)
 
-  member.guild.channels.get('492637325738639382').send('Bienvenue sur le discord,' + '**' + member.user.username + '**' + '. ' + 'Je vous ai vue vous ai vu une fois dans une carriole, tirée par un cheval. Enfin, la carriole tirée par un cheval.');
+  member.guild.channels.get('354913667659333632').send('Bienvenue sur le discord,' + '**' + member.user.username + '**' + '. ' + 'Je vous ai vue vous ai vu une fois dans une carriole, tirée par un cheval. Enfin, la carriole tirée par un cheval.');
 })
 
 bot.on('guildMemberRemove', member => {
-  member.guild.channels.get('492637325738639382').send('**' + member.user.username + '**' + '. ' + 'Cassez-vous ! Cassez-vous ! Décarrez d’chez moi, bande de clampins ! Taillez-vous vite fait ! Et j’vous conseille de vous mettre au turbin, vous m’entendez ? Et le prochain qui se pointe avec un prototype, un vase à fleurs ou le pot de chambre de sa mamie, j’l’envoie garder les moutons dans les Highlands, pigé ?! Et tenez ! Reprenez vos merdes! Jsuis pas vide-grenier !');
+  member.guild.channels.get('354913667659333632').send('**' + member.user.username + '**' + '. ' + 'Cassez-vous ! Cassez-vous ! Décarrez d’chez moi, bande de clampins ! Taillez-vous vite fait ! Et j’vous conseille de vous mettre au turbin, vous m’entendez ? Et le prochain qui se pointe avec un prototype, un vase à fleurs ou le pot de chambre de sa mamie, j’l’envoie garder les moutons dans les Highlands, pigé ?! Et tenez ! Reprenez vos merdes! Jsuis pas vide-grenier !');
 
 });
 

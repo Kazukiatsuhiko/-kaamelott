@@ -21,6 +21,7 @@ bot.on('message', function (message) {
      .addField("!play", "!play plus lien video youtube")
      .addField("!stop", "Stop la musique")
      .addField("!skip", "Passer a la video suivante")
+     .addField("!volume", "Augmenter ou diminuer le volume Entre 0 - 200 ")
      .addField("!replique", "replique kaamelott aléatoire")
      .addField("!chat", "image de chat aléatoire")
      message.channel.sendEmbed(help_embed);

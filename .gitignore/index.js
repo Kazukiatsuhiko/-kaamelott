@@ -238,4 +238,4 @@ bot.on('ready', () => {
     console.log('Bot started.');
 
 });
-
+bot.login(process.env.TOKEN);
